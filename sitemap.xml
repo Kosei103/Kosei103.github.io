@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://Kosei103.github.io/</loc></url>
-<url><loc>https://Kosei103.github.io/en/</loc></url>
+<url><loc>https://kosei103.github.io/</loc></url>
+<url><loc>https://kosei103.github.io/publications/</loc></url>
+<url><loc>https://kosei103.github.io/talks/</loc></url>
+<url><loc>https://kosei103.github.io/resources/</loc></url>
+<url><loc>https://kosei103.github.io/en/</loc></url>
+<url><loc>https://kosei103.github.io/en/publications/</loc></url>
+<url><loc>https://kosei103.github.io/en/talks/</loc></url>
+<url><loc>https://kosei103.github.io/en/resources/</loc></url>
 </urlset>

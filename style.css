@@ -1,1 +1,37 @@
-:root{color-scheme:light;--ink:#20252b;--muted:#5b6570;--rule:#dce1e5;--accent:#285b77;--paper:#fff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,Arial,sans-serif}a{color:var(--accent);text-underline-offset:.18em}a:hover{text-decoration-thickness:2px}.wrap{max-width:840px;margin:auto;padding:0 28px}.top{border-bottom:1px solid var(--rule)}.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:70px}.brand{font-size:1rem;font-weight:650;color:var(--ink);text-decoration:none}.nav{display:flex;gap:18px;align-items:center;flex-wrap:wrap;font-size:.86rem}.nav a{text-decoration:none}.lang{border-left:1px solid var(--rule);padding-left:16px}.hero{padding:72px 0 56px;border-bottom:1px solid var(--rule)}.eyebrow{font-size:.83rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:650}h1{font-size:clamp(2.05rem,6vw,3.25rem);font-weight:650;letter-spacing:-.035em;line-height:1.25;margin:16px 0 14px}h2{font-size:1.35rem;letter-spacing:-.02em;margin:0 0 22px}h3{font-size:1.03rem;margin:0 0 5px}.lead{color:var(--muted);font-size:1.1rem;max-width:620px;margin:0}.meta{margin-top:23px;color:var(--muted);font-size:.92rem}.section{padding:52px 0;border-bottom:1px solid var(--rule)}.section p{margin:0 0 15px}.section p:last-child{margin-bottom:0}.list{list-style:none;padding:0;margin:0}.list li{padding:16px 0;border-top:1px solid var(--rule)}.list li:first-child{border-top:0;padding-top:0}.detail{color:var(--muted);font-size:.92rem}.notice{padding:14px 18px;background:#f3f6f7;color:var(--muted);border-radius:4px}.footer{color:var(--muted);font-size:.85rem;padding:30px 0 50px}@media(max-width:610px){.top .wrap{align-items:flex-start;flex-direction:column;padding-top:16px;padding-bottom:16px;gap:8px}.nav{gap:12px}.hero{padding:52px 0 42px}.section{padding:39px 0}}
+:root{color-scheme:light;--ink:#20252b;--muted:#5b6570;--rule:#dce1e5;--accent:#285b77;--paper:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,Arial,sans-serif}
+a{color:var(--accent);text-underline-offset:.18em}
+a:hover{text-decoration-thickness:2px}
+.wrap{max-width:840px;margin:auto;padding:0 28px}
+.top{border-bottom:1px solid var(--rule)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:70px}
+.brand{font-size:1rem;font-weight:650;color:var(--ink);text-decoration:none}
+.nav{display:flex;gap:18px;align-items:center;flex-wrap:wrap;font-size:.9rem}
+.nav a{text-decoration:none}
+.nav a[aria-current=page]{color:var(--ink);font-weight:650}
+.lang{border-left:1px solid var(--rule);padding-left:16px}
+.hero{padding:64px 0 52px;border-bottom:1px solid var(--rule)}
+h1{font-size:clamp(2.05rem,6vw,3.25rem);font-weight:650;letter-spacing:-.035em;line-height:1.25;margin:0 0 20px}
+h2{font-size:1.35rem;letter-spacing:-.02em;margin:0 0 22px}
+h3{font-size:1.03rem;margin:0 0 5px}
+.meta{margin:0;color:var(--muted);font-size:.96rem}
+.section{padding:48px 0;border-bottom:1px solid var(--rule)}
+.section p{margin:0 0 15px}
+.section p:last-child{margin-bottom:0}
+.directory-list{list-style:none;display:flex;flex-wrap:wrap;gap:12px 28px;padding:0;margin:16px 0 0}
+.directory-list li{scroll-margin-top:24px}
+.list{list-style:none;padding:0;margin:0}
+.list li{padding:16px 0;border-top:1px solid var(--rule)}
+.list li:first-child{border-top:0;padding-top:0}
+.list.numbered{list-style:decimal;padding-left:2rem}
+.list.numbered li{padding-left:.35rem}
+.list.numbered li::marker{color:var(--muted);font-variant-numeric:tabular-nums}
+.detail{color:var(--muted);font-size:.92rem}
+.page-head{padding:62px 0 20px}
+.page-head h1{font-size:clamp(1.9rem,5vw,2.7rem);margin:0}
+.subpage-content{padding-top:12px}
+.page-note{margin-bottom:24px!important}
+.footer{color:var(--muted);font-size:.85rem;padding:30px 0 50px}
+@media(max-width:610px){.top .wrap{align-items:flex-start;flex-direction:column;padding-top:16px;padding-bottom:16px;gap:8px}.nav{gap:12px 15px}.hero{padding:48px 0 40px}.section{padding:38px 0}.page-head{padding-top:42px}}
