@@ -7,7 +7,7 @@ a:hover{text-decoration-thickness:2px}
 .wrap{max-width:840px;margin:auto;padding:0 28px}
 .top{border-bottom:1px solid var(--rule)}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:70px}
-.brand{font-size:1rem;font-weight:650;color:var(--ink);text-decoration:none}
+.brand{display:none}
 .nav{display:flex;gap:18px;align-items:center;flex-wrap:wrap;font-size:.9rem}
 .nav a{text-decoration:none}
 .nav a[aria-current=page]{color:var(--ink);font-weight:650}
